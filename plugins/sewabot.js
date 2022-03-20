@@ -6,7 +6,7 @@ let handler = async(m, { conn }) => {
 ├ 2 Bulan
 ├ 1 Bulan
 ├ 1 Minggu
-├ Trial 5 jam
+├ Trial 8 jam
 └────
 Silahkan klik pada "List Harga" untuk melihat list.
 
