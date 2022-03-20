@@ -13,7 +13,7 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.linkGC = ['https://chat.whatsapp.com/EVCGfzxLWfp81n0WhmVklH', 'https://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9', 'https://chat.whatsapp.com/HBhy7rVae3o0PkIfkhvs2N'] // ganti jadi group lu
+global.linkGC = ['https://chat.whatsapp.com/HNosE6PyuIF19iNLDVb8Dm', 'https://chat.whatsapp.com/HNosE6PyuIF19iNLDVb8Dm', 'https://chat.whatsapp.com/HNosE6PyuIF19iNLDVb8Dm'] // ganti jadi group lu
 global.owner = ['6285368159958', '6281379159390', '6283197699514', '6281379159361] // Masukan nomot kalian
 global.mods = ['6285368159958', '6281379159390', '6283197699514', '6281379159361] // Moderator
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
@@ -52,8 +52,8 @@ global.APIKeys = { // APIKey Here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'rad#'
-  var sticker_author = '©radbotz'
+  var sticker_name = 'Reihan#'
+  var sticker_author = '©ReihanBotZ'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -109,7 +109,7 @@ Nb:bot ini masih terus dikembangkan.`
 // Ubah saja
 global.ppkosong = 'https://telegra.ph/file/22fd84e4a3244e1b17e4e.png'
 global.ppgc = 'https://telegra.ph/file/22fd84e4a3244e1b17e4e.png'
-global.image = 'https://telegra.ph/file/4f4a5a3cde6a98a96da79.jpg'//change the image
+global.image = 'https://telegra.ph/file/fc345c9d4c98f271e9521.jpg'//change the image
 global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
 global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
 global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
