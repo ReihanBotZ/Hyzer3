@@ -6,24 +6,24 @@ let handler = async(m, { conn }) => {
 ├ 2 Bulan
 ├ 1 Bulan
 ├ 1 Minggu
-├ Trial 4 jam
+├ Trial 5 jam
 └────
 Silahkan klik pada "List Harga" untuk melihat list.
 
 Pembayaran:
-Pulsa (ISAT): 6285892962667 (+5.000)
-Dana: 6285714313795
+Pulsa (ISAT): 6285368159958 (+5.000)
+Dana: 6285368159958
 `.trim()
     const button = {
         buttonText: 'List Harga',
-        description: kamisato,
+        description: ReihanBotZ,
         sections:  [{title: "Silahkan di pilih", rows: [
         {title: '2 Bulan', description: "Rp15.000\nSewa bot tanpa batasan waktu.", rowId:".masuk"},
         {title: '1 Bulan', description: "Rp10.000\nSewa bot selama 1 bulan.", rowId:".masuk"},
-        {title: '1 Minggu', description: "Rp7.000\nSewa bot selama 1 minggu.", rowId:".masuk"},
-        {title: 'Trial', description: "GRATIS\nBot gratis 3 Hari.", rowId:".join"},
+        {title: '1 Minggu', description: "Rp8.000\nSewa bot selama 1 minggu.", rowId:".masuk"},
+        {title: 'Trial', description: "Rp2.000\nBot gratis 3 Hari.", rowId:".join"},
         {title: 'Owner', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
-        {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".rules"},
+        {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan Berlaku.", rowId:".rules"},
        ] }],
         listType: 1
        }
@@ -33,4 +33,4 @@ handler.tags = ['main']
 handler.command = /^(sewa)$/i
 handler.help = ['sewa']
 module.exports = handler
-//Haruno Bot
+//ReihanBotZ
